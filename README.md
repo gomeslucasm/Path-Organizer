@@ -11,7 +11,7 @@ Script em python que monitora os arquivos adicionados ou movidos em uma pasta, e
 
 - `python main.py --path Diretorio da sua escolha`
 
--Ex.: `python main.py --path Downloads`
+- Ex.: `python main.py --path Downloads`
 
 
 ## Gerando executável
