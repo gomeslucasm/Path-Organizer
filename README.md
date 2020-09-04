@@ -20,6 +20,10 @@ Script em python para organizar os arquivos em pastas conforme seu tipo.
   </li>
 </ul>  
 
+## Gerando executável
+
+
+
 ### Organização das pastas
 
 - 'PDF':['/*.pdf',]
@@ -37,11 +41,16 @@ Script em python para organizar os arquivos em pastas conforme seu tipo.
 
 ### Comandos adicionais
 
-## Escolher tipos de pastas para separar os arquivos
+#### Escolher tipos de pastas para separar os arquivos
 
 - "python main.py --path Diretorio de sua escolha --type tipo de arquivo"
 
 - exemplo: "python main.py --path Downloads --type PDF --type Executaveis --type Imagens --type Videos"
-
-- Obs: Arquivos de tipos que não estão contidos na descrição de cada pasta serão movidos para a pasta Outros.
   
+ #### Excluir um tipo de pasta 
+ 
+ - "python main.py --path Diretorio de sua escolha --exclude tipo de arquivo"
+
+- exemplo: "python main.py --path Downloads --exclude Executaves --exclude PDF"
+
+
