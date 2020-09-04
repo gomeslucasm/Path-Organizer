@@ -10,29 +10,29 @@ Script em python para organizar os arquivos em pastas conforme seu tipo.
 
 - Instale as bibliotecas necessárias `pip install -r requirements.txt`
 
-- Execute o comando "python main.py --path Diretorio da sua escolha"
+- `python main.py --path Diretorio da sua escolha`
 
 
 ## Gerando executável
 
-- "pyintaller --onefile --noconsole .\main.py".
+- `pyintaller --onefile --noconsole .\main.py`
 
 - Obs.: O comando "--noconsole" é opcional e serve para gerar um executável que não abre a janela do cmd, ou seja, fica funcionando em segundo plano.
 
 
 ### Organização das pastas
 
-- 'PDF':['/*.pdf',]
-- 'Executaveis':['/*.exe','/*.msi']
-- 'Imagens':['/*.jpg','/*.png','/*.gif','/*.jpeg','/*.bmp']
-- 'Videos':['/*.avi','/*.mp4','/*.wmv','/*.flv','/*.mpeg4','/*.mkv','/*.mpeg']
-- 'CSVs':['/*.csv','/*.xlsx']
-- 'Word':['/*.doc','/*.docx','/*.rtf']
-- 'Zip':['/*.zip','/*.rar']
-- 'Bloco de notas':['/*.txt']
-- 'Matlab':['/*.m',]
-- 'Python':['/*.py',]
-- 'Audio':['/*.mp3','/*.wav']
+- ```'PDF':['/*.pdf',]
+  'Executaveis':['/*.exe','/*.msi']
+  'Imagens':['/*.jpg','/*.png','/*.gif','/*.jpeg','/*.bmp']
+  'Videos':['/*.avi','/*.mp4','/*.wmv','/*.flv','/*.mpeg4','/*.mkv','/*.mpeg']
+  'CSVs':['/*.csv','/*.xlsx']
+  'Word':['/*.doc','/*.docx','/*.rtf']
+  'Zip':['/*.zip','/*.rar']
+  'Bloco de notas':['/*.txt']
+  'Matlab':['/*.m',]
+  'Python':['/*.py',]
+  'Audio':['/*.mp3','/*.wav']```
 - Obs: Arquivos de tipos que não estão contidos na descrição de cada pasta serão movidos para a pasta Outros.
 
 ### Comandos adicionais
