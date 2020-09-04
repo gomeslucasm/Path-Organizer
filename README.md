@@ -6,6 +6,8 @@ Script em python para organizar os arquivos em pastas conforme seu tipo.
 
 ## Como usar?
 
+`<blockquote>`
+
 - Abra o cmd.
 
 - Instale as bibliotecas necessárias 'pip install -r requirements.txt'
