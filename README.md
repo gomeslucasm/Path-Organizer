@@ -2,6 +2,9 @@
 
 Script em python que monitora os arquivos adicionados ou movidos em uma pasta, e os organiza conforme seu tipo. Para o fazer o monitoramento da pasta é utilizada a biblioteca `watchdog`.
 
+- [x] Executável :trophy:
+- [ ] Trabalhar com arquivos repetidos :red_circle:
+
 
 ## Como usar?
 
