@@ -75,38 +75,21 @@ def Organize_dir(dir_org,inc_type, exc_type):
     else:
         os.mkdir(diretorio / 'Outros')
         outros_arquivos.remove('Outros')
-    
 
-    for arq in outros_arquivos:      
-        if arq in list(tipos_de_arquivos.keys()):
-            pass
-        elif os.path.isdir(str(diretorio / arq)):
-            pass
-        else:
-            try:
-                shutil.move(str(diretorio / arq), str(diretorio / 'Outros'))
-            except:
-                print(arq)
-        
-        """ arquivos_pdf = os.listdir(diretorio / 'PDF')
 
-        if os.path.isdir(diretorio / 'PDF'/ 'Meus Arquivos'):
+    not_move = ['.crdownload','.tmp']
+    for filename in diretorio.glob('*'):
+        if filename.suffix in not_move:
             pass
         else:
-            os.mkdir(diretorio / 'PDF' / 'Meus Arquivos')
-
-        for arq in arquivos_pdf:   
-            try:    
-                pdf_file = open(diretorio / 'PDF' / arq, 'rb')
-                read_pdf = PyPDF2.PdfFileReader(pdf_file)
+            if filename in list(tipos_de_arquivos.keys()):
+                pass
+            elif os.path.isdir(str(diretorio / filename)):
+                pass
+            else:
                 try:
-                    if "Gomes" in read_pdf.documentInfo['/Author']:
-                        move(str(diretorio /'PDF'/ arq), str(diretorio / 'PDF' / 'Meus Arquivos'))
-                    else:
-                        pass
+                    shutil.move(str(diretorio / filename), str(diretorio / 'Outros'))
                 except:
-                    print(pdf_file)
-            except:
-                print(pdf_file) """
-
+                    print(filename)
+    
     pass
