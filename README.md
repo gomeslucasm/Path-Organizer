@@ -22,6 +22,9 @@ Script em python para organizar os arquivos em pastas conforme seu tipo.
 
 ## Gerando executável
 
+- "pyintaller --onefile --noconsole .\main.py".
+
+- Obs.: O comando "--noconsole" é opcional e serve para gerar um executável que não abre a janela do cmd, ou seja, fica funcionando em segundo plano.
 
 
 ### Organização das pastas
@@ -51,6 +54,6 @@ Script em python para organizar os arquivos em pastas conforme seu tipo.
  
  - "python main.py --path Diretorio de sua escolha --exclude tipo de arquivo"
 
-- exemplo: "python main.py --path Downloads --exclude Executaves --exclude PDF"
+- exemplo: "python main.py --path Downloads --exclude Executaveis --exclude PDF"
 
 
