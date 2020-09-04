@@ -1,7 +1,6 @@
 # Organizador de arquivos
 
- 
-Script em python para organizar os arquivos em pastas conforme seu tipo.
+Script em python que monitora os arquivos adicionados ou movidos em uma pasta, e os organiza conforme seu tipo. Para o fazer o monitoramento da pasta é utilizada a biblioteca `watchdog`.
 
 
 ## Como usar?
@@ -22,7 +21,7 @@ Script em python para organizar os arquivos em pastas conforme seu tipo.
 - Obs.: O comando `--noconsole` é opcional e serve para gerar um executável que não abre a janela do cmd, ou seja, fica funcionando em segundo plano.
 
 
-### Organização das pastas
+## Organização das pastas
 
 - ```'PDF':['/*.pdf',]
   'Executaveis':['/*.exe','/*.msi']
