@@ -10,9 +10,7 @@ Script em python para organizar os arquivos em pastas conforme seu tipo.
 
 - Instale as bibliotecas necessárias
 
-'<
-pip install -r requirements.txt
->'
+'pip install -r requirements.txt'
 
 -Execute o comando "python main.py --path Diretorio da sua escolha"
 
