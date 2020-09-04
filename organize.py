@@ -74,8 +74,8 @@ def Organize_dir(dir_org,inc_type, exc_type):
         pass
     else:
         os.mkdir(diretorio / 'Outros')
-
-    outros_arquivos.remove('Outros')
+        outros_arquivos.remove('Outros')
+    
 
     for arq in outros_arquivos:      
         if arq in list(tipos_de_arquivos.keys()):
