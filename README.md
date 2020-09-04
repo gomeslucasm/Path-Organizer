@@ -32,7 +32,7 @@ Script em python para organizar os arquivos em pastas conforme seu tipo.
   'Bloco de notas':['/*.txt']
   'Matlab':['/*.m',]
   'Python':['/*.py',]
-  'Audio':['/*.mp3','/*.wav']```
+  'Audio':['/*.mp3','/*.wav']
 - Obs: Arquivos de tipos que não estão contidos na descrição de cada pasta serão movidos para a pasta Outros.
 
 ### Comandos adicionais
