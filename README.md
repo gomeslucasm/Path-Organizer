@@ -18,6 +18,8 @@ Script em python que monitora os arquivos adicionados ou movidos em uma pasta, e
 
 - `pyintaller --onefile --noconsole .\main.py`
 
+- É interessante adicionar o .exe gerado na inicialização do sistema para que seus arquivos estejam sempre organizados.
+
 - Obs.: O comando `--noconsole` é opcional e serve para gerar um executável que não abre a janela do cmd, ou seja, fica funcionando em segundo plano.
 
 
