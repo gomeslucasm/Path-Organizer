@@ -1,4 +1,4 @@
-# Organizador de arquivos
+# Organizador de arquivos :file_folder:
 
 Script em python que monitora os arquivos adicionados ou movidos em uma pasta, e os organiza conforme seu tipo. Para o fazer o monitoramento da pasta é utilizada a biblioteca `watchdog`.
 
