@@ -19,7 +19,7 @@ Script em python que monitora os arquivos adicionados ou movidos em uma pasta, e
 
 ## Gerando executável
 
-- `pyintaller --onefile --noconsole .\main.py`
+- `pyinstaller --onefile --noconsole .\main.py`
 
 - É interessante adicionar o .exe gerado na inicialização do sistema para que seus arquivos estejam sempre organizados.
 
